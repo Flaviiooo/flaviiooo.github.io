@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOT-BOUTET Flavien</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/sae.css">
+    <link rel="stylesheet" href="styles/passions.css">
+    <link rel="stylesheet" href="styles/sun.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <nav class="nav-links" id="navLinks">
+                <a href="#about">À propos</a>
+                <a href="#sae">Projet universitaire</a>
+                <a href="#projects">Projets personnels</a>
+                <a href="#skills">Compétences</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+
+        </div>
+    </header>
+
+    <section id="about" class="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+
+                <h1 class="hero-title">Développeur Junior</h1>
+                <p class="hero-description">
+                    Étudiant passionné d'informatique. Curieux et toujours en quête de nouvelles connaissances, 
+                    j’aime me lancer de nouveaux défis pour enrichir mes compétences et repousser les limites de mes projets
+                </p>
+
+                <div class="hero-cta">
+                    <a href="#sae" class="btn btn-primary">Découvrir mes projets</a>
+                    <a href="#contact" class="btn btn-outline">Entrer en contact</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <section id="sae" class="sae">
+        <div class="container">
+            <h2 class="section-title">Projet Universitaire (SAE)</h2>
+            
+            <div class="bricom-project">
+                <div class="project-info">
+                    <h3 class="project-title">BriCom - Le réseau social pour bricoleurs</h3>
+                    <div class="project-description">
+                        <p>Dans le cadre de notre projet de 2ème année, nous devions développer un
+                            réseau social dédié aux bricoleurs. Le projet a été réalisé en équipe de 3 pendant une année complète (165H). <br>
+                            Pour mettre en oeuvre ce projet, un professeur nous a encadré et a été notre client pour la durée du projet.
+                            Nous avons dû réaliser un cahier des charges, une maquette et un prototype avant de nous lancer dans le développement.<br>
+                    </div>
+                    
+                    <div class="project-details">
+
+                        
+                        <h4>Fonctionnalités principales</h4>
+                        <ul class="features-list">
+                            <li>Publication et partage de posts (style Instagram)</li>
+                            <li>Diffusion en direct (Live)</li>
+                            <li>Messagerie instantanée</li>
+                            <li>Tutoriels détaillés (format similaire à Marmiton)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-tags">
+                        <span class="tag">PHP</span>
+                        <span class="tag">Twig</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Kotlin</span>
+                        <span class="tag">Blazor</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">API REST</span>
+                        <span class="tag">Git</span>
+                        <span class="tag">Gestion de Projet</span>
+                        <span class="tag">Relation client</span>
+                        <span class="tag">Figma</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="project-carousel-container">
+                    <div class="project-carousel">
+                        <div class="carousel-slide active">
+                            <a href="images/mobile.png" target="_blank"><img src="images/mobile.png" alt="Application Mobile BriCom"></a>
+                            <p class="slide-caption">Application mobile Android développée en Kotlin. Ici la page d'accueil et le profil d'un autre utilisateur</p>
+                        </div>
+                        <div class="carousel-slide">
+                            <video src="images/live.mp4" alt="prewiew_live" controls class="img_sae"> 
+                                <source src="images/quality_showroom.mp4" type="video/mp4">
+                            </video>
+                            <p class="slide-caption">Fonctionnalité la plus importante de notre application mobile, démonstration de notre système de vidéo en direct directement intégré à l'application.</p>
+                        </div>
+                        <div class="carousel-slide">
+                            <a href="images/Bricom_webapp1.png" target="_blank"> <img src="images/Bricom_webapp1.png" alt="Application Web BriCom" class="img_sae"></a>
+                            <p class="slide-caption">Page d'accueil de la webapp permettant de consulter les posts des autres utilisateurs</p>
+                        </div>
+                        <div class="carousel-slide">
+                            <a href="images/Bricom_Backoffice.png" target="_blank"><img src="images/Bricom_Backoffice.png" alt="Application Mobile BriCom"></a>
+                            <p class="slide-caption">BackOffice du réseau social, sur cette image on peut voir la gestion des utilisateurs</p>
+                        </div>
+                        <div class="carousel-slide">
+                            <a href="images/Architecture_sae.png" target="_blank"><img src="images/Architecture_sae.png" alt="Architecture global du reseau social"></a>
+                            <p class="slide-caption">Architecture globale de notre application. L'ensemble de nos applications sont reliées à notre API qui récupère et transmet les données</p>
+                        </div>
+                    </div>
+                    <div class="carousel-controls">
+                        <button class="prev-btn">&lt;</button>
+                        <div class="carousel-dots">
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                        <button class="next-btn">&gt;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projets personnels</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <a href="images/deck_mastery.png" target="_blank" ><img src="images/deck_mastery.png" alt="Projet pokedex" class="project-image"> </a>
+                    <div class="project-content">
+                        <h3 class="project-title">Deck Mastery</h3>
+                        <p class="project-description">
+                            Site web dans l'univers de pokemon permettant d'ouvrir des paquets de cartes et de collectionner les cartes pokemon.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="project-card" id="fivem_project">
+                    <video src="images/quality_showroom.mp4" alt="quality_showroom" controls class="project-image"> 
+                        <source src="images/quality_showroom.mp4" type="video/mp4">
+                    </video>
+                    <div class="project-content">
+                        <h3 class="project-title">Quality FreeRoam</h3>
+                        <p class="project-description">
+                            Je suis actuellement en train de travailler sur un serveur de jeu FiveM. 
+                            Nous sommes 2 développeurs à travailler sur ce projet. Je m'occupe principalement de l'interface utilisateur. 
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">LUA</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JS</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Compétences</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Langages de programmation</h3>
+                    <div class="skills-grid">
+
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">JS</div>
+                                    <h4 class="skill-name">JavaScript</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Pratique du JavaScript lors de projets universitaires mais également lors de projets personnels</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">PHP</div>
+                                    <h4 class="skill-name">PHP</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Projet de SAE réalisé à 100% en PHP pour le backend. <br>
+                                        <a href="#sae"> Voir le projet</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">Java</div>
+                                    <h4 class="skill-name">Java & JavaFX</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Apprentissage uniquement dans le cadre du BUT pour l'étude des patrons de conception<br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">Kotlin</div>
+                                    <h4 class="skill-name">Kotlin</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>L'application mobile de ma saé a été réalisée en kotlin avec JetPackCompose<br>
+                                        <a href="#sae"> Voir le projet</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">PY</div>
+                                    <h4 class="skill-name">Python</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Principalement pour des mathématiques et algorithmie. Également utilisé pour manipuler des données.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">Ruby</div>
+                                    <h4 class="skill-name">Ruby</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Initiation à Ruby dans le but de découvrir le langage et l'utilisation de Ruby on Rails</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">Lua</div>
+                                    <h4 class="skill-name">Lua</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Apprentissage personnel niveau débutant, réalisation de script sur FiveM <br>
+                                    <a href="#projects"> Voir le projet</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">Bash</div>
+                                    <h4 class="skill-name">Bash</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Apprentissage dans le but d'utiliser Linux</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">C</div>
+                                    <h4 class="skill-name">C</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>1er langage appris en BUT, reproduction d'algorithme (trie, gestion de la mémoire, etc)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">C++</div>
+                                    <h4 class="skill-name">C++</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Apprentissage en BUT pour apprendre les concepts de la programmation orientée objet</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">C#</div>
+                                    <h4 class="skill-name">C#</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Projet de fin de 1ère année de BUT, réalisation du jeu de société Kamelot avec MAUI</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Frameworks & Bibliothèques</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">V</div>
+                                    <h4 class="skill-name">Vue.js</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Réalisation de mon projet pokemon Deck Mastery<br>
+                                    <a href="#projects"> Voir le projet</a></p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">SF</div>
+                                    <h4 class="skill-name">Symfony</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Réalisation d'une application RH pour l'entreprise OpenStudio<br></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">Rails</div>
+                                    <h4 class="skill-name">Ruby On Rails</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Initiation au framework Ruby On Rails en 2ème année, spécialité Web<br></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">Spring</div>
+                                    <h4 class="skill-name">API Spring Boot</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>L'API de notre projet de SAE a été réalisée en SpringBoot<br> 
+                                    <a href="#sae"> Voir le projet</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">Blazor</div>
+                                    <h4 class="skill-name">Blazor</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Réalisation d'un backoffice avec l'utilisation de la librairie MudBlazor<br> 
+                                    <a href="#sae"> Voir le projet</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Bases de données</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">PS</div>
+                                    <h4 class="skill-name">PostgreSQL</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Apprentissage du SQL complet durant les 2 premières années du BUT</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">MySQL</div>
+                                    <h4 class="skill-name">MySQL</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Utilisation dans le cadre d'un site web pour gérer toutes les données <br>
+                                    <a href="#projects"> Voir le projet</a></p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">Mongo</div>
+                                    <h4 class="skill-name">MongoDB</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Initiation à MongoDB et aux principes du NoSql en fin de 2ème année de BUT</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Systèmes d'exploitation</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">Linux</div>
+                                    <h4 class="skill-name">Linux</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Utilisation de Linux (Gnome - I3) pour le développement sur les machines de l'IUT</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">Windows</div>
+                                    <h4 class="skill-name">Windows</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Utilisation pour le développement sur mon ordinateur personnel et pour un usage quotidien.</p>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="skill-item">
+                            <div class="skill-card">
+                                <div class="skill-face skill-front">
+                                    <div class="skill-icon">Mac</div>
+                                    <h4 class="skill-name">Mac OS</h4>
+                                </div>
+                                <div class="skill-face skill-back">
+                                    <p>Utilisation de Mac OS lors de mon stage de BUT 2 pour du développement WEB</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3 class="contact-title">Parlons de votre projet</h3>
+                    <p class="contact-description">
+                        Vous avez un projet en tête ? N'hésitez pas à me contacter. Je serais ravi de discuter de la façon
+                        dont je peux vous aider à concrétiser votre vision.
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:Flavien.got-boutet@etu.uca.fr" class="contact-link">
+                            <div class="contact-icon">✉️</div>
+                            <span>Flavien.got-boutet@etu.uca.fr</span>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/flavien-got-boutet-43803532a/" target="_blank" class="contact-link">
+                            <div class="contact-icon">🔗</div>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nom</label>
+                            <input type="text" id="name" class="form-input" placeholder="Votre nom">
+                            <div class="error-message" id="nameError"></div> 
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" class="form-input" placeholder="Votre email">
+                            <div class="error-message" id="emailError"></div> 
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" class="form-textarea" placeholder="Votre message"></textarea>
+                            <div class="error-message" id="messageError"></div> 
+                        </div>
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">© 2025 Flavien GOT-BOUTET - 2ème année BUT Informatique Aubière</p>
+                <a href="#about" class="scroll-to-top">
+                    <i class="fa fa-arrow-up"></i> 
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="scripts/script.js"></script>
+    <canvas id="petalsCanvas"></canvas>
+    <div id="sun"></div>
+    <script src="scripts/summer.js"></script>
+
+    </body>
+</html>
